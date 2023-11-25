@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.Quickwash" parent="Base.Theme.Quickwash" />
+    <style name="Theme.Quickwash.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Quickwash.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Quickwash.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

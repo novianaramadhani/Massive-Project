@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splashscreen.SplashScreenActivity"
+    android:background="@color/blue">
+
+    <fragment
+        android:id="@+id/halamanf"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="226dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/splash1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="239dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="372dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:gravity="center"
+        android:text="Nikmati Pencucian Berkualitas dari Kenyamanan Rumah Anda."
+        android:textColor="@color/navy"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="239dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="480dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:gravity="center"
+        android:text="Pesan sekarang dan rasakan kemudahan!"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_bayar"
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="@color/orange"
+        android:text="Lanjut"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
