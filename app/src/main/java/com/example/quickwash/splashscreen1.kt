@@ -1,12 +1,11 @@
-package com.example.quickwash.Homepage
+package com.example.quickwash
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.quickwash.R
 
-class beranda : AppCompatActivity() {
+class splashscreen1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_beranda)
+        setContentView(R.layout.activity_splashscreen1)
     }
 }
